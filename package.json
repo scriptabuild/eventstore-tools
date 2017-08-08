@@ -1,6 +1,6 @@
 {
   "name": "@scriptabuild/eventstore-tools",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "LogSchemaTool",
   "main": "index.js",
   "bin": {},
