@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "LogSchemaTool",
   "main": "index.js",
+  "bin": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/scriptabuild/eventstore-tools/issues"
   },
-  "homepage": "https://github.com/scriptabuild/eventstore-tools#readme"
+  "homepage": "https://github.com/scriptabuild/eventstore-tools#readme",
+  "dependencies": {
+    "@scriptabuild/readonlyproxy": "^1.0.0"
+  }
 }

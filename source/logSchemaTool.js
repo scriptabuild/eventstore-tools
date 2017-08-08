@@ -11,7 +11,7 @@ const wrapInReadOnlyProxy = require("@scriptabuild/readonlyproxy")
 function DomainModel(dispatch, logAggregator) {
 
 	this.getLogSchema = function() {
-		let logSchema = logAggregator.data();
+		let logSchema = logAggregator.data;
 		return Object.entries(logSchema)
 			.map(([eventname, versions]) => ({
 				eventname,
